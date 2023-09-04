@@ -40,7 +40,7 @@ from sec_api import QueryApi
 #     print(filings)
 #     return filings  # Or return any other appropriate result
 
-queryApi=QueryApi(api_key="cdafa1286e4c879452fa735831299488afa7993764f089623a6493a4bf10ffa2")
+queryApi=QueryApi(api_key="sec_api_key")
 
 def fetch_13f_filings():
     print(f"Getting next 13F batch starting ")
